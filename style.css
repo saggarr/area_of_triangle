@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(136, 142, 147);
+}
+
+.box{
+
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: rgb(20, 23, 23);
+    margin-top: 15%;
+    margin-left: 36%;
+    height: 300px;
+    width: 400px;
+}
+
+h2{
+    color: rgb(23, 137, 236);
+    background-color: rgb(20, 23, 23);
+}
+
+label{
+    color: white;
+    background-color: rgb(20, 23, 23);
+}
+
+input{
+    background-color: white;
+}
+
+.area{
+    background-color: white;
+    height: 30px;
+    width: 50px;
+}
+
+.clear{
+    background-color: white;
+    height: 30px;
+    width: 50px;
+    margin-left: 10%;
+}
+
+
+/* media quries */
+/*mobile view*/
+@media(max-width: 768px){
+
+    .box{
+        position: fixed;
+        margin-left: 10%;
+        margin-top: 40%;
+        width: 300px;
+    }
+}
+
+/*desktop view*/
+@media(min-width:1080px){
+    
+}
+
+/*tablet view*/
+@media(min-width:769px) and (max-width:1024px){
+    
+}

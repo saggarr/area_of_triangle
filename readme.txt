@@ -1,0 +1,1 @@
+lets make a triangle area calculator. which takes inputs of three arm of a triangle and show them the area of that triangle
